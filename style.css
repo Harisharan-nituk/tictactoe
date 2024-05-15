@@ -1,0 +1,63 @@
+*{
+
+    margin:0;
+    padding: 0;
+}
+/* padding is extra space inside the element 
+margin is extra space outside the eleement  */
+body{
+    background-color: rgb(55, 187, 231);
+    text-align: center;
+    align-items: center;
+
+}
+.container{
+    height: 70vh;
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0 0 0 1);
+    font-size: medium;
+    color: blueviolet;
+}
+#reset_button{
+    border-radius: 1rem;
+    width: 20VMIN;
+    height: 9vmin;
+    background-color: rgb(137, 49, 49);
+    align-items: center;
+}
+#newgame{
+    border-radius: 1rem;
+    width: 20VMIN;
+    height: 9vmin;
+    background-color: rgb(137, 49, 49);
+    align-items:flex-start;
+
+}
+#msg_container{
+    color:#fff175;
+
+
+}
+.hide{
+    display:none;
+
+}
